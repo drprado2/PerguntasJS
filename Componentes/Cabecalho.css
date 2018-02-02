@@ -1,0 +1,97 @@
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #36ABCB;
+    display: flex;
+    box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.75);
+    z-index: 999;
+}
+
+.caixaTituloCabecalho {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 15px;
+    flex-grow: 1;
+}
+
+.tituloSubtitulo {
+    width: 220px;
+    cursor: default;
+}
+
+.tituloSubtitulo:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.caixaTituloCabecalho > h1{
+    width: 220px;
+}
+
+.subtituloCabecalho {
+    letter-spacing: 1.5px;
+    margin-top: 4px;
+    width: 220px;
+}
+
+.levelCabecalho {
+    display: flex;
+    float: right;
+    margin-right: 15vw;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.caixaLevel > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
+
+.barraLevel {
+    height: 9px;
+    border-radius: 3px;
+    margin-top: 5px;
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid black;
+}
+
+.percentualLevel {
+    background-color: black;
+    height: 8px;
+    border-radius: 3px;
+    width: 50%;
+}
+
+.caixaLevel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caixaLevel > span {
+    color: white;
+    font-size: 20px;
+}
+
+.caixaLevel > div {
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.caixaLevel > div:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+

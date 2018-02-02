@@ -1,0 +1,8 @@
+.container {
+    display: grid;
+    grid-template:
+            "cabecalho cabecalho cabecalho" 100px
+            "lateralEsquerda centroCaixa lateralDireita" minmax(calc(100vh - 100px), calc(100% - 100px))
+        / calc((100vw - 800px) / 2) 800px calc((100vw - 800px) / 2);
+}
+

@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans",arial,x-locale-body,sans-serif;
+}
+
+.margem-caderno {
+    width: calc(100% - 46px);
+    height: calc(100% - 46px);
+    margin: 23px;
+    border: 1px solid black;
+}
+
