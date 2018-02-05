@@ -111,3 +111,13 @@ input[type=checkbox] {
 .checkBoxTitulo + hr {
     margin-bottom: 15px;
 }
+
+.areaBotaoCheckBox {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.areaBotaoCheckBox div:first-child {
+    flex-grow: 1;
+}

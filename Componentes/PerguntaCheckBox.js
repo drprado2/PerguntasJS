@@ -1,4 +1,7 @@
 const PerguntaCheckBox = function(){
+
+  this.botaoProsseguir = new BotaoProsseguir();
+
   this.perguntas = [
     "Cara tem que ser isso, isso faz total sentido",
     "Cara tem que ser isso, isso faz total sentido",
@@ -16,6 +19,10 @@ PerguntaCheckBox.prototype.renderizar = function(){
         <div class="checkBox">
             ${this.perguntas.map((x, index) => `<input id=${`perguntaCheck-${index}`} name="perguntaCheck" type="checkbox" /><label for=${`perguntaCheck-${index}`} class="itemCheckBox"><div class="visualQuadradinho"></div><span>${x}</span></label>`).join("")}    
         </div>
+        <div class="areaBotaoCheckBox">
+            <div></div>${this.botaoProsseguir.renderizar()}
+        </div> 
     </div>
+        ${new BalaoRespostaErrada().renderizar()}
   `;
 }
